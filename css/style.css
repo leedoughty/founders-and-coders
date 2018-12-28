@@ -30,3 +30,17 @@ h3 {
 .intro-image {
   width: 200px;
 }
+
+/* LINKS TO PREREQUISITES */
+
+#icon-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 100px;
+  margin-top: 50px;
+}
+.icon-item {
+  width: 50px;
+  align-self: center;
+  justify-self: center;
+}
