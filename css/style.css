@@ -90,3 +90,9 @@ p {
   max-width: 80%;
   margin: 0 auto;
 }
+#projects-grid-container {
+  margin: 0 auto;
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(2, 1fr);
+}
