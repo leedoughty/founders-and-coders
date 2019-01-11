@@ -121,7 +121,24 @@ p {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 900px) {
+  /* PROJECTS SECTION */
+  .projects-content {
+    max-width: 90%;
+  }
+  .project img {
+    width: 90%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  /* PROJECTS SECTION */
+  .projects-content {
+    max-width: 80%;
+  }
   #projects-grid-container {
     grid-template-columns: repeat(1, 1fr);
   }
