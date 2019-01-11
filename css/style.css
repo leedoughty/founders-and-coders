@@ -23,7 +23,9 @@ h1 {
   display: block;
   padding: 15px 0;
   overflow: hidden;
+  position: fixed;
   width: 100%;
+  top: 0;
   text-align: right;
   font-weight: bold;
 }
@@ -41,6 +43,9 @@ h1 {
 .navigation-item:hover {
   text-decoration: underline;
 }
+.navigation-item:focus {
+  background-color: white;
+}
 #name:hover {
   text-decoration: underline;
 }
@@ -51,6 +56,7 @@ h1 {
 #intro-section {
   background-color: #ecf0f1;
   height: 100vh;
+  padding-top: 30px;
 }
 .intro-content {
   max-width: 80vw;
