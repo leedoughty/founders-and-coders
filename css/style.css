@@ -106,3 +106,10 @@ p {
   align-content: center;
   justify-content: center;
 }
+
+/* FOOTER SECTION */
+.site-footer {
+  padding: 40px 0;
+  font-size: 16px;
+  margin: 0;
+}
