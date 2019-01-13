@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans");
+@font-face {
+  font-family: "din-regular";
+  src: url("../type/DINPro-Regular.otf") format("opentype");
+}
 
 /* GENERAL STYLES */
 html,
@@ -57,7 +61,6 @@ h1 {
 #intro-section {
   background-color: #ecf0f1;
   height: 100vh;
-  padding-top: 30px;
 }
 .intro-content {
   max-width: 80vw;
@@ -65,11 +68,14 @@ h1 {
   margin: 0 auto;
 }
 .intro-image {
+  margin-top: 100px;
   width: 200px;
 }
-p {
+.intro-text {
   padding: 20px;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: din-regular;
+  text-align: left;
 }
 
 /* PROJECTS SECTION */
