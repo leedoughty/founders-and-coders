@@ -94,7 +94,6 @@ h1 {
 }
 #projects-grid-container {
   height: inherit;
-  border: 1px solid red;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, minmax(150px, auto));
@@ -112,19 +111,18 @@ h1 {
   align-items: center;
   align-content: center;
   justify-content: center;
+  font-family: "din-bold";
+  font-size: 40px;
 }
-
-/* LINKS */
 #icon-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 0 250px;
-  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
 }
 .icon-item {
   width: 50px;
-  align-self: center;
-  justify-self: center;
+  padding: 50px;
 }
 .icon-item:hover {
   -webkit-transform: scale(1.5); /* Safari and Chrome */
@@ -156,9 +154,24 @@ h1 {
   h2 {
     font-size: 20px;
   }
+  /* FOOTER SECTION */
+  .site-footer {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  /* NAVIGATION BAR */
+  #navigation-bar {
+    padding-right: 5px;
+  }
+  .navigation-item {
+    padding-left: 5px;
+  }
+  /* INTRODUCTION SECTION */
+  .intro-text {
+    font-size: 20px;
+  }
   /* PROJECTS SECTION */
   .projects-content {
     max-width: 80%;
@@ -168,5 +181,9 @@ h1 {
   }
   .project img {
     width: 100%;
+  }
+  /* CONTACT SECTION */
+  .contact-container {
+    text-align: center;
   }
 }
