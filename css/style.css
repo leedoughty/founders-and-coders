@@ -114,6 +114,13 @@ h1 {
   font-family: "din-bold";
   font-size: 40px;
 }
+.cv {
+  color: black;
+  text-decoration: none;
+}
+.cv:hover {
+  text-decoration: underline;
+}
 #icon-container {
   display: flex;
   align-items: center;
