@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 h1,
 h2 {
@@ -84,6 +85,14 @@ h1 {
 }
 
 /* PROJECTS SECTION */
+#projects-section:before {
+  display: block;
+  content: " ";
+  margin-top: 10px;
+  height: 10px;
+  visibility: hidden;
+  pointer-events: none;
+}
 #projects-section {
   background-color: #ecf0f1;
 }
@@ -104,6 +113,14 @@ h1 {
 }
 
 /* CONTACT SECTION */
+#contact-section:before {
+  display: block;
+  content: " ";
+  margin-top: -10px;
+  height: 10px;
+  visibility: hidden;
+  pointer-events: none;
+}
 .contact-container {
   display: flex;
   width: 100vw;
