@@ -40,12 +40,12 @@ h1 {
 }
 #name {
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
   text-decoration: none;
   color: black;
 }
 .navigation-item {
-  padding: 0 20px 0 10px;
+  padding: 0 5px;
   text-decoration: none;
   color: black;
 }
@@ -80,8 +80,8 @@ h1 {
 }
 .intro-text {
   width: 80%;
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
   font-family: din-regular;
   text-align: center;
 }
@@ -185,18 +185,18 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.contact-buttons {
-
-}
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 600px) {
   /* NAVIGATION BAR */
+  #name {
+    padding-left: 20px;
+  }
   #navigation-bar {
     padding-right: 5px;
   }
   .navigation-item {
-    padding-left: 5px;
+    padding: 0 20px 0 10px;
   }
   /* INTRODUCTION SECTION */
   .intro-content {
@@ -205,6 +205,7 @@ h1 {
   .intro-text {
     font-size: 40px;
     text-align: left;
+    padding: 20px;
   }
   /* PROJECTS SECTION */
   .projects-content {
